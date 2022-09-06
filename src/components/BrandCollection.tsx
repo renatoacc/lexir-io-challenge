@@ -4,6 +4,14 @@ import ErikaSpi from "../assets/img/erika-logo.svg";
 import NineFold from "../assets/img/ninefold-distillery-logo.svg";
 import Argala from "../assets/img/argala-logo.svg";
 import Baldoria from "../assets/img/baldoria-logo.svg";
+import Denmark from "../assets/img/denmark.svg";
+import France from "../assets/img/france.svg";
+import Scotland from "../assets/img/scotland.svg";
+import Italy from "../assets/img/italy.svg";
+import Belgium from "../assets/img/belgium.svg";
+
+
+
 import Image from "next/image";
 
 export const BrandCollection = ():JSX.Element => {
@@ -21,8 +29,7 @@ export const BrandCollection = ():JSX.Element => {
                             <h4 className="mt-2 mb-2 text-2xl font-bold tracking-tight">SIWU DISTILLET</h4>
                         </header>
                         <span className="mb-3 font-normal text-gray-700">Aquavit & Gin</span>
-                        <figure>{/* Flag Vector */}</figure>
-                        <span className="mb-3 font-normal text-gray-700">Copenhagen, Denmark</span>
+                        <span className="mb-3 font-normal text-gray-700"><Image src={Denmark} height={12} alt='Denmark'/> Copenhagen, Denmark</span>
                     </div>
                 </div>
                 <div className="box-content w-80 h-28 pl-3 mb-5 flex flex-col items-center bg-white rounded-lg border md:flex-row hover:bg-[#F9F9F9]">
@@ -33,8 +40,7 @@ export const BrandCollection = ():JSX.Element => {
                             <h4 className="mt-2 mb-2 text-2xl font-bold tracking-tight">ERIKA SPIRITS</h4>
                         </header>
                         <span className="mb-3 font-normal text-gray-700">Vodka & Gin</span>
-                        <figure>{/* Flag Vector */}</figure>
-                        <span className="mb-3 font-normal text-gray-700">Cognac, France</span>
+                        <span className="mb-3 font-normal text-gray-700"><Image src={France} height={12} alt='France'/> Cognac, France</span>
                     </div>
                 </div>
                 <div className="box-content w-80 h-28 pl-3 mb-5 flex flex-col items-center bg-white rounded-lg border md:flex-row hover:bg-[#F9F9F9]">
@@ -45,8 +51,7 @@ export const BrandCollection = ():JSX.Element => {
                             <h4 className="mt-2 mb-2 text-2xl font-bold tracking-tight">NINEFOLD</h4>
                         </header>
                         <span className="mb-3 font-normal text-gray-700">Rum</span>
-                        <figure>{/* Flag Vector */}</figure>
-                        <span className="mb-3 font-normal text-gray-700">D&G, Scotland</span>
+                        <span className="mb-3 font-normal text-gray-700"><Image src={Scotland} height={12} alt='Scotland'/> D&G, Scotland</span>
                     </div>
                 </div>
                 <div className="box-content w-80 h-28 pl-3 mb-5 flex flex-col items-center bg-white rounded-lg border md:flex-row hover:bg-[#F9F9F9]">
@@ -57,8 +62,7 @@ export const BrandCollection = ():JSX.Element => {
                             <h4 className="mt-2 mb-2 text-2xl font-bold tracking-tight">ARGALA</h4>
                         </header>
                         <span className="mb-3 font-normal text-gray-700">Pastis, Bittres & Liqueurs</span>
-                        <figure>{/* Flag Vector */}</figure>
-                        <span className="mb-3 font-normal text-gray-700">Boves, Italy</span>
+                        <span className="mb-3 font-normal text-gray-700"><Image src={Italy} height={12} alt='Italy'/> Boves, Italy</span>
                     </div>
                 </div>
                 <div className="box-content w-80 h-28 pl-3 mb-5 flex flex-col items-center bg-white rounded-lg border md:flex-row hover:bg-[#F9F9F9]">
@@ -69,8 +73,7 @@ export const BrandCollection = ():JSX.Element => {
                             <h4 className="mt-2 mb-2 text-2xl font-bold tracking-tight">BALDORIA</h4>
                         </header>
                         <span className="mb-3 font-normal text-gray-700">Vermouth</span>
-                        <figure>{/* Flag Vector */}</figure>
-                        <span className="mb-3 font-normal text-gray-700">Boves, Italy</span>
+                        <span className="mb-3 font-normal text-gray-700"><Image src={Italy} height={12} alt='Italy'/> Boves, Italy</span>
                     </div>
                 </div>
                 <div className="box-content w-80 h-28 pl-3 mb-5 flex flex-col items-center bg-white rounded-lg border md:flex-row hover:bg-[#F9F9F9]">
@@ -81,8 +84,7 @@ export const BrandCollection = ():JSX.Element => {
                             <h4 className="mt-2 mb-2 text-2xl font-bold tracking-tight">KISS MY</h4>
                         </header>
                         <span className="mb-3 font-normal text-gray-700">Aperitif</span>
-                        <figure>{/* Flag Vector */}</figure>
-                        <span className="mb-3 font-normal text-gray-700">Izegem, Belgium</span>
+                        <span className="mb-3 font-normal text-gray-700"><Image src={Belgium} height={12} alt='Belgium'/> Izegem, Belgium</span>
                     </div>
                 </div>
             </article>
